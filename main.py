@@ -28,5 +28,4 @@ def test(message):
     r = requests.get(URL_TRANSLATE, headers=headers_translate, params=params)
     res = r.json()
     bot.send_message(message.chat.id,res["Translation"] ["Translation"])
-
 bot.polling(none_stop=True)
