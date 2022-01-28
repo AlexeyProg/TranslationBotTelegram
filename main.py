@@ -36,5 +36,4 @@ def test(message):
         except:
             tex = "Не удалось найти такое слово"
         bot.send_message(message.chat.id, tex)
-
 bot.polling(none_stop=True)
