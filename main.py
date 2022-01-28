@@ -4,8 +4,8 @@ import requests
 
 URL_AUTH = "https://developers.lingvolive.com/api/v1.1/authenticate"
 URL_TRANSLATE = "https://developers.lingvolive.com/api/v1/Minicard"
-KEY = "OWFlNjZjYjEtNzE2OS00ZTA4LWJlMjEtMjBmMWQ1Yzk1MDRjOmMxZmY5MDMwMjcxNDRiNDdiZDc1MzdmMWJiYzczYmM3"
-TOKEN = '5250513223:AAE7roliwVV11F9XvEVeIZyixmJmUZBW7Tc'
+KEY = ""
+TOKEN = ''
 
 headers_auth = {"Authorization": "Basic " +KEY}
 auth = requests.post(URL_AUTH, headers=headers_auth)
